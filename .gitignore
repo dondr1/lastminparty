@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Expo
+.expo/
+.expo-shared/
+
+# Vercel
+.vercel/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+
+# Builds
+dist/
+build/
+
+# iOS / Android junk
+ios/
+android/
