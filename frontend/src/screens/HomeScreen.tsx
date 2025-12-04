@@ -1,31 +1,20 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View } from "react-native";
+import ProfileIcon from "../components/ProfileIcon";
+import ProfileStrip from "../components/ProfileStrip";
+import DeckSwiper from "../components/DeckSwiper";
+import BottomNavBar from "../components/BottomNavBar";
 
-const HomeScreen = () => {
+export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>LastMinParty</Text>
-      <Text style={styles.subtitle}>Home Feed (Swipe Events will go here)</Text>
+    <View style={{ flex: 1, backgroundColor: "#f3f4f6" }}>
+      <ProfileIcon />
+
+      <ProfileStrip />
+
+      <DeckSwiper />
+
+      <BottomNavBar />
     </View>
   );
-};
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 16,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "700",
-  },
-  subtitle: {
-    fontSize: 14,
-    marginTop: 8,
-    textAlign: "center",
-  },
-});
-
-export default HomeScreen;
+}
