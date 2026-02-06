@@ -1,13 +1,15 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Button } from "react-native";
+import { supabase } from "../../supabaseClient";
 
-const ProfileScreen = () => {
+export default function ProfileScreen() {
+  async function handleLogout() {
+    await supabase.auth.signOut();
+  }
+
   return (
-    <View>
-      <Text>Profile</Text>
-      <Text>User profile settings</Text>
+    <View style={{ padding: 20 }}>
+      <Button title="Log out" onPress={handleLogout} />
     </View>
   );
-};
-
-export default ProfileScreen;
+}
