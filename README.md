@@ -1,5 +1,5 @@
-Last Min Party
-A React Native social events application where users discover events through a swipe interface and hosts curate their guest lists through a two-way approval system.
+**Last Min Party**
+-a React Native social events application where users discover events through a swipe interface and hosts curate their guest lists through a two-way approval system.
 What It Does
 Hot Swiper reimagines event discovery and attendance by combining the intuitive swipe mechanics of dating apps with a curated guest list experience. Instead of traditional event RSVPs, users and hosts both have control over who attends.
 The Core Concept
