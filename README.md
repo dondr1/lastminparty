@@ -1,4 +1,4 @@
-**Last Min Party 🎉**
+## **Last Min Party 🎉 - Swipe based event discovery platform**
 - React Native social events application where users discover events through a swipe interface and hosts curate their guest lists through a two-way approval system.
 
 ## 🎯 What It Does
